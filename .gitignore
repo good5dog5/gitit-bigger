@@ -1,0 +1,12 @@
+cache/
+node_modules/
+wikidata/
+mywiki*/
+vimwiki*/
+docs/
+gitit-users
+gitit.log
+log
+pid
+*.log
+*.zip

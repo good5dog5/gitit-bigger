@@ -1,0 +1,133 @@
+@import url("hk-pyg.css"); /* for syntax highlighting */
+
+/* Put your custom style modifications here: */
+
+
+        #content {
+            word-wrap: break-word!important;
+        }
+
+
+        #content pre > code{
+            word-wrap: normal!important;
+            overflow-x: auto!important;
+            white-space:pre!important;
+        }
+
+        p > code, li > code{
+            word-wrap: break-word!important;
+            white-space:pre!important;
+        }
+
+        #editor {
+          height: 400px;
+          width: 100%;
+          border: 1px solid #ddd;
+          /*border-radius: 4px;*/
+          /*font-size: 14px;*/
+          /*font-family: Monaco, "Liberation Mono", Courier, monospace;*/
+        }
+        #editedText {
+          visibility: hidden;
+          display: none;
+        }
+
+        div#categoryList {
+            padding: 0em;
+            padding-top: 10px;
+            margin: 1em 0 0 0;
+            border: 1px dashed #ccc;
+        }
+
+        #categoryList > ul:before{
+            content: 'Categories: ';
+            font-size: 153.9%;
+            font-weight: bold;
+            line-height: 30px;
+        }
+
+        #maincol > ul > li{
+            margin-bottom: 5px!important;
+        }
+
+        #mobile-navi{
+            clear: both;
+        }
+
+        #mobile-navi-tabs {
+            float: left;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #mobile-navi-tabs > li {
+            float: left;
+            margin-bottom: -1px;
+        }
+        #mobile-navi-tabs > li > a {
+            border: 1px solid transparent;
+            border-radius: 4px 4px 0 0;
+            display: block;
+            margin-right: 2px;
+            padding: 10px 15px;
+            position: relative;
+        }
+        #mobile-navi-tabs > li.selected > a {
+            border-color: #428bca #428bca #fff;
+            color: #000;
+        }
+
+        #mobile-navi-tabs > li.mobile-navi-item{
+                margin-right: 5px;
+        }
+
+        #mobile-navi-tabs > li.mobile-navi-item > a{
+                padding: 5px 5px!important;
+                background-color: #f5f5f5 !important;
+        }
+
+    /*For fixed navbar */
+    body{
+        /*padding-top: 95px;*/
+    }
+
+    nav#header-navbar{
+        padding-top: 10px;
+
+    }
+
+    #TOC{
+        float: right;
+    }
+
+    #header-navbar-collapse>.navbar-nav>li>a:hover, #header-navbar-collapse>.navbar-nav>li>a:focus {
+        text-decoration: none!important;
+        background-color: #eee!important;
+    }
+
+    a.scrollup{
+        display: inline;
+        /*width: 40px;*/
+        height: 40px;
+        position: fixed;
+        bottom: 80px;
+        right: 20px;
+        background-size: 40px;
+        z-index:9999;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    border-bottom: 1px solid #ECEAEA;
+    padding-bottom: 5px;
+}
+
+blockquote {
+    padding: 5px 20px;
+    margin: 0px 0 10px;
+    font-size: 90%;
+    border-left: 5px solid #eee;
+}
+#content img{
+    max-width: 100%;
+}
