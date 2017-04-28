@@ -41,11 +41,6 @@
                         $markuphelp()$
                     $endif$
                 </div>
-                <div class="col-md-2 hidden-print" id="sidebar">
-                    <div class="row">
-                        $sidebar()$
-                    </div>
-                </div>
                 <div class="col-md-10 hidden-print">
                     $footer()$
                 </div>
